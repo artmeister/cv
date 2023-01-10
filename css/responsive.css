@@ -1,0 +1,36 @@
+@media (min-width: 991px) {
+	.wrapper {
+		flex-wrap: nowrap;
+		gap: 120px;
+	}
+
+	.wrapper__left {
+		flex: 1 50%;
+	}
+}
+
+@media (min-width: 600px) {
+	body {
+		padding: 30px;
+	}
+}
+
+@media (min-width: 500px) {
+	.me {
+		flex-wrap: nowrap;
+	}
+
+	.avatar {
+		padding-right: 10px;
+	}
+
+	.section__list {
+		max-height: 200px;
+	}
+}
+
+@media (min-width: 390px) {
+	.section__link {
+		white-space: nowrap;
+	}
+}

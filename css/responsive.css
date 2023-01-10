@@ -30,6 +30,10 @@
 }
 
 @media (min-width: 390px) {
+	.section__link.links a:not(:last-child) {
+		padding-right: 15px;
+	}
+
 	.section__link {
 		white-space: nowrap;
 	}

@@ -18,6 +18,7 @@
 @media (min-width: 500px) {
 	.me {
 		flex-wrap: nowrap;
+		margin-bottom: 30px;
 	}
 
 	.avatar {

@@ -3,10 +3,10 @@ html {
 }
 
 body {
-	font-family: 'Raleway';
+	font-family: "Roboto Flex", sans-serif;
 	font-size: 14px;
 
-	color: #292A2F;
+	color: #292a2f;
 	background-color: #fff;
 
 	max-width: 70%;
@@ -39,7 +39,7 @@ body {
 	justify-content: center;
 	flex-wrap: wrap;
 	flex: 1 100%;
-	gap: 10px
+	gap: 10px;
 }
 
 .avatar__img {
@@ -76,7 +76,7 @@ body {
 }
 
 .section:not(:last-child) {
-	margin-bottom: 36px
+	margin-bottom: 36px;
 }
 
 .section__heading {

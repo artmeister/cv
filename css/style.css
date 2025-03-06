@@ -9,7 +9,7 @@ html {
 
 body {
 	font-family: "Roboto Flex", sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 
 	color: var(--black);
 	background-color: var(--white);
@@ -28,8 +28,26 @@ body {
 	}
 }
 
+h1 {
+	font-size: 24px;
+	font-weight: 800;
+
+	@media (min-width: 992px) {
+		font-size: 42px;
+	}
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 700;
+
+	@media (min-width: 992px) {
+		font-size: 24px;
+	}
+}
+
 h3 {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 700;
 }
 
@@ -115,14 +133,8 @@ strong {
 	border-radius: 50%;
 }
 
-.name__heading {
-	font-size: calc(2vh + 100% * 1);
-
-	margin: 0;
-}
-
 .name__position {
-	font-size: 18px;
+	font-weight: 500;
 }
 
 .about_me {
@@ -130,7 +142,6 @@ strong {
 }
 
 .about_me__text {
-	font-size: 14px;
 	text-align: justify;
 }
 
@@ -147,10 +158,7 @@ strong {
 .section__heading {
 	display: flex;
 	align-items: center;
-	gap: 7px;
-
-	font-size: 18px;
-	font-weight: 600;
+	gap: 5px;
 }
 
 .section__link {
@@ -197,9 +205,6 @@ strong {
 }
 
 .experience__period {
-	font-size: 14px;
-	font-weight: 600;
-
 	@media (min-width: 1400px) {
 		max-width: 85px;
 	}
@@ -212,6 +217,5 @@ strong {
 }
 
 .experience__company {
-	font-size: 14px;
 	font-style: italic;
 }
